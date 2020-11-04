@@ -5,6 +5,7 @@ import {
 } from 'react-native'
 
 import Header from './components/Header'
+import PromotionsList from './components/PromotionsList'
 
 const App: () => React$Node = () => {
   return (
@@ -12,6 +13,7 @@ const App: () => React$Node = () => {
       <StatusBar />
       <SafeAreaView>
         <Header />
+        <PromotionsList />
       </SafeAreaView>
     </>
   );
