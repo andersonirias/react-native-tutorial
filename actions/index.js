@@ -14,3 +14,11 @@ export const pageIncrement = {
 export const pageBackToStart = {
   type: 'BACK_TO_START'
 }
+
+export const setRefreshTrue = {
+  type: 'SET_REFRESH_TRUE'
+}
+
+export const setRefreshFalse = {
+  type: 'SET_REFRESH_FALSE'
+}
